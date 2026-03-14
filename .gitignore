@@ -1,0 +1,27 @@
+# Update .gitignore
+cat > .gitignore << 'EOF'
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# Gatsby
+.cache
+public
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+EOF

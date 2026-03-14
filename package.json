@@ -1,0 +1,29 @@
+{
+  "name": "harpreet-saini-p1",
+  "version": "1.0.0",
+  "description": "ITDEV-164 Project 1 - Portfolio with Gatsby and Contentful",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.1.4",
+    "dotenv": "^17.3.1",
+    "gatsby": "^5.16.1",
+    "gatsby-plugin-image": "^3.16.0",
+    "gatsby-plugin-sharp": "^5.16.0",
+    "gatsby-plugin-styled-components": "^6.16.0",
+    "gatsby-source-contentful": "^8.17.0",
+    "gatsby-transformer-sharp": "^5.16.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.3.11"
+  }
+}
